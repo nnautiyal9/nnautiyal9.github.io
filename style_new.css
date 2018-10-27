@@ -1,6 +1,6 @@
 body{
 	font: arial;
-	background: #E1C3A1;
+	background: #151515;
 	font-weight: bold;
 	text-transform: uppercase;
 	margin: 0 auto;
@@ -31,7 +31,7 @@ body{
 	color: #fff;
 }
 #nav a:hover{
-	background:#612559;
+	background:#07FFE3;
 	color: #000;
 }
 #banner img{
@@ -59,13 +59,13 @@ body{
 	text-decoration: none;
 	text-align:center;
 	background: #000;
-	color: #fff;
+	color:#FD0855;
 	display: block;
 	padding: 1em ;
 }
 #products a:hover{
-	background-color: #612559;
-	color: #fff;
+	background-color: #07FFE3;
+	color: #FD0855;
 }
 .header{
 	text-align:center;
