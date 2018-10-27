@@ -1,0 +1,46 @@
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Home</title>
+		<link rel="stylesheet" type="text/css" href="style_new.css">
+	</head>
+	<body>
+		<div id="wrapper">
+			<nav id="nav">
+				<ul>
+					<li><a href="title_links/all_products.html">ABOUT</a></li>
+					<li><a href="title_links/deals.html">SKILLS</a></li>
+					<li><a href="title_links/my_cart.html">PROJECTS</a></li>
+					<li><a href="title_links/contact_us.html">Contact us</a></li>
+					<li><a href="title_links/about_us.html">About us</a></li>
+				</ul>
+			</nav>
+			<div id="banner">
+				<img src="IMG_1360.png">
+			</div>
+			<nav id="products">
+				<ul>
+					<li><a href="featured_links/fertilizers.html">fertilizers</a></li>
+					<li><a href="featured_links/pesticides.html">pesticides</a></li>
+					<li><a href="featured_links/seeds.html">seeds</a></li>
+					<li><a href="featured_links/pgp.html">plant growth promoters</a></li>
+				</ul>
+			</nav>
+			<script src="https://connect.soundcloud.com/sdk/sdk-3.3.0.js"></script>
+<script>
+SC.initialize({
+  client_id: 'YOUR_CLIENT_ID',
+  redirect_uri: 'file:///D:/Web/nik_new.html'
+});
+
+// initiate auth popup
+SC.connect().then(function() {
+  return SC.get('/me');
+}).then(function(me) {
+  alert('Hello, ' + me.username);
+});
+</script>
+		</div>
+	</body>
+	</html>
