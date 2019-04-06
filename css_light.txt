@@ -51,7 +51,7 @@ body{
 	text-align: center;
 }
 #social a{
-	margin: 5vw 0em 5.3vw 0em;
+	margin: 3vw 0em 3.3vw 0em;
 	background: #fff;
 	color:#000;
 	display: inline-block;
