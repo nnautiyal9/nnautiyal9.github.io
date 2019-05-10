@@ -7,12 +7,12 @@ body{
 	background: #222;
 	width: 70%;
 	margin: 0 auto;
-	box-shadow: 2px 0 50px;
+	box-shadow: 2px 0 50px #111;
 }
 li{
 	color : #fff;
 }
-ul{
+ul,p{
 	color : #fff;
 }
 
@@ -81,13 +81,14 @@ ul{
 #about li{
 	font-weight: bold;
 	font-size: 3vw;
-	background: #111;
+	background: #222;
 	text-align: center;
 	list-style-type: none;
 	display: block;
 	padding: 1vw;
 	vertical-align: middle;
 	margin: 0.5vw 0vw 0.5vw 0vw;
+	box-shadow: 2px 0 40px #111;
 }
 #about ul{
 	font-family: 'Roboto', sans-serif;
@@ -99,6 +100,17 @@ ul{
 	display: inline-block;
 	margin: 0em;
 }
+p{
+	font-family: 'Roboto', sans-serif;
+	background: #222;
+	text-align: center;
+	font-size: 1.5vw;
+	list-style-type: none;
+	padding: 0 15vw;
+	margin: 3vw;
+
+}
+
 #profile{
 	background: #99ebff;
 	padding: 3vw;
@@ -143,9 +155,11 @@ ul{
 	text-align: center;
 }
 #projects img{
-	padding:2vw 5vw 2vw 5vw;
-	background-color: #222;
-	vertical-align: top;
+	padding:5vw;
+	margin: 3vw 0em 3.3vw 0em;
+	background: #222;
+	color:#fff;
+	display: inline-block;
 }
 #projects img:hover{
 	background-color: #111;
@@ -156,10 +170,3 @@ ul{
 .header{
 	text-align:center;
 }
-#footer{
-  background-color: #111;
-  padding: 10px;
-  text-align: center;
-  color: #111;
-}
-
