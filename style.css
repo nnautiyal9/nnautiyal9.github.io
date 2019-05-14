@@ -43,6 +43,11 @@ ul,p{
 	padding: 1%;
 
 }
+#temp p{
+	text-align: right;
+	margin-left: 0.1vw;
+	padding-right: 1vw;
+}
 #banner img{
 	align-self: baseline;
 	width: 100%;
